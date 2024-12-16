@@ -27,15 +27,6 @@ Cheat sheets are a collection of concise notes and references that can be useful
 
 ---
 
-## **Contents**
-- [Git Cheat Sheet](git/git-cheat-sheet.md)
-- [C++ Cheat Sheet](cpp/cpp-cheat-sheet.md)
-- [Markdown Cheat Sheet](markdown/markdown-cheat-sheet.md)
-- [Competitive Programming with C++](competitive-programming/cp-with-cpp.md)
-- [MATLAB Cheat Sheet](matlab/matlab-cheat-sheet.md)
-
----
-
 ## **Purpose**
 This repository is designed to:
 - **Serve as a Backup Memory**: A central place to store important programming information.

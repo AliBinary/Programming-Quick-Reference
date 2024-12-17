@@ -33,9 +33,9 @@ int knapsack(const vector<int> &value, const vector<int> &weight, int capacity)
 int main()
 {
     // Example input
-    vector<int> value = {60, 100, 120};
-    vector<int> weight = {10, 20, 30};
-    int capacity = 50;
+    vector<int> value = {80, 24, 23, 22, 21};
+    vector<int> weight = {80, 25, 25, 25, 25};
+    int capacity = 100;
 
     // Solve the knapsack problem
     int max_value = knapsack(value, weight, capacity);

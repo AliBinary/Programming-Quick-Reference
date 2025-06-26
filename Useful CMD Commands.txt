@@ -1,0 +1,21 @@
+### Find common files in two folders ###
+
+
+dir /b "2020s Top Hits" > f1.txt
+
+dir /b "Top Hits of 2018" > f2.txt
+
+findstr /I /L /G:f1.txt f2.txt
+
+
+---------------------------------------------------
+
+
+### Remove certain string from multiple filenames ###
+
+
+Get-ChildItem *.txt -File | Rename-Item -NewName { $_.Name -replace " - Copy", "" }
+
+
+
+---------------------------------------------------
